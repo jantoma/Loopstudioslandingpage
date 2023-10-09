@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" /> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Loopstudios landing page</title>
+  <!-- css bootstrap file -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- style css file -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mediaQuery.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-xl">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.svg" alt="logo">
+          </a>
+          <button class="navbar-toggler   " type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-left mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link  active " aria-current="page" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Careers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Support</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- hero section starts here-->
+  <section class="hero_section" id="about">
+    <div class="container">
+      <div class="content reveal">
+        <h1>Immersive experiences that deliver</h1>
+      </div>
+    </div>
+  </section>
+  <main>
+    <!-- Hero Section end Here -->
+    <section>
+      <div class="interactive">
+        <div class="container">
+          <div class="pic>">
+            <picture>
+              <source media="(min-width:62rem)" srcset="images/desktop/image-interactive.jpg">
+              <source media="(min-width:6.25rem)" srcset="images/mobile/image-interactive.jpg">
+              <img src="images/desktop/image-interactive.jpg" alt="vr">
+            </picture>
+          </div>
+          <div class="interactive-text">
+            <h2>The leader in interactive VR</h2>
+            <p> Founded in 2011, Loopstudios has been producing world-class virtual reality
+              projects for some of the best companies around the globe
+              Our award-winning
+              creations have transformed businesses through digital experiences that bind
+              to their brand.</p>
+          </div>
+        </div>
+      </div>
+      <div class="main-creation" id="proudact">
+        <div class="container">
+          <div class="creation">
+            <h2 id="move"> Our creations</h2>
+            <button id="btn">See all</button>
+          </div>
+          <div class="creation-boxes">
+            <div class="box">
+              <img src="images/desktop/image-deep-earth.jpg" alt="earth">
+                <h3 class="intro">Deep earth</h3>
+            </div>
+
+            <div class="box">
+              <img src="images/desktop/image-night-arcade.jpg" alt="night arcade">
+                <h3 class="intro">Night arcade</h3>
+            </div>
+
+            <div class="box">
+              <img src="images//desktop/image-soccer-team.jpg" alt="">
+              <h3 class="intro">Soccer team VR</h3>
+            </div>
+
+            <div class="box">
+              <img src="images/desktop/image-grid.jpg" alt="">
+              <h3 class="intro">The grid</h3>
+            </div>
+
+            <div class="box">
+              <img src="images/desktop/image-from-above.jpg" alt="">
+              <h3 class="intro">From up above VR</h3>
+            </div>
+            <div class="box">
+              <img src="images/desktop/image-pocket-borealis.jpg" alt="">
+              <h3 class="intro">Pocket borealis</h3>
+            </div>
+
+            <div class="box">
+              <img src="images/desktop/image-curiosity.jpg" alt="">
+              <div class="one">
+                <h3 class="intro">The curiosity</h3>
+              </div>
+            </div>
+
+            <div class="box">
+              <img src="images/desktop/image-fisheye.jpg" alt="">
+              <h3 class="intro">Make it fisheye</h3>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="col-left  reveal">
+        <div class="logo-img">
+          <img src="images/logo.svg" alt="logo">
+        </div>
+        <div class="link-success">
+          <ul>
+            <li> <a href="#about">About</a>
+            </li>
+            <li><a href="">Careers</a>
+            </li>
+            <li><a href="">Events</a>
+            </li>
+            <li><a href="#proudact">Products</a>
+            </li>
+            <li><a href="">Support</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-right  reveal">
+        <div class="icons">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com" title="facebook">
+                <i class="fab fa-facebook-square icon"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.comt" title="instagram">
+                <i class="fab fa-instagram icon"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com" title="twitter">
+                <i class="fab fa-twitter icon"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://pinterst.com" title="pinterst">
+                <i class="fab fa-pinterest-square icon"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <p class="copyright">© 2023 Loopstudios. All rights reserved.</p>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a rel="noopener" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+        Mentor></a>
+      Coded by <a href="https://github.com/jantoma">Jan Toma</a>.
+    </div>
+  </footer>
+
+  <!---- scrool to top----->
+
+  <a href="#" class="back-to-top" title="back To top">
+    <i class="fa-solid fa-circle-chevron-up"></i>
+  </a>
+
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/01107ddf2c.js" crossorigin="anonymous"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
