@@ -292,7 +292,7 @@
      background-color: rgb(0, 0, 0);
      opacity: 40%;
      transition: all .500ms ease;
-     transform: rotate3d(1, 2, 3, 5deg);
+     transform: rotate(5deg);
  }
 
  .main-creation .box:hover .intro {
@@ -314,7 +314,7 @@
      border: 5px solid rgb(216, 0, 72);
      background: rgba(255, 255, 255, 0.2);
      cursor: pointer;
-     transform: rotate3d(1, 2, 3, 10deg);
+     transform: rotate(10deg);
 
  }
 
